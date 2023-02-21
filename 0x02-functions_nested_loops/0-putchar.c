@@ -1,9 +1,11 @@
-/**
- * _putchar writes a character to stdout
- * main prints nothing
- * return is always 0
- */
 #include "main.h"
+/**
+ * main - prints out nothing
+ * _putchar - writes a character to stdout
+ * 
+ * return: is always 0
+ */
+
 
 int main(void)
 {
