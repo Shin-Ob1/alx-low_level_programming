@@ -3,3 +3,4 @@
  * The function name is _putchar
  */
 int _putchar(char c);
+void print_alphabet(void);
