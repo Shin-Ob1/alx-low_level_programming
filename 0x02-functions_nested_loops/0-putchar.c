@@ -2,8 +2,8 @@
 /**
  * main - prints out nothing
  * _putchar - writes a character to stdout
- * 
- * return: is always 0
+ * Description: combination of single digit numers
+ * return: 0
  */
 
 
