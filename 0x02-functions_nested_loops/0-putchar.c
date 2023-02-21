@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main: prints out nothing
+ * main - Prints Holberton as a message
  * _putchar - writes a character to stdout
  * Description: combination of single digit numers
  * return: 0
