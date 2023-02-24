@@ -2,11 +2,11 @@
 /**
  * _isdigit-check if input is a digit.
  * @c:character to check if it islowercase.
- * Return:0-if lowercase,1-if not.
+ * Return:1-if digit,0-if not.
  */
 
 
-int _isdigit(int c)
+int _isdigit(char c)
 {
 	if (c >= 0 && c <= 9)
 	{
