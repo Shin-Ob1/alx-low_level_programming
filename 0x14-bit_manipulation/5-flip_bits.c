@@ -5,22 +5,21 @@
  * @n: first number
  * @m: second number
  *
- * Return: number of bits you would need to flip
- * to get from one number to another.
+ * Return: number of bits neeeded to flip
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int d, ch;
+	unsigned long int diff, check;
 	unsigned int count, i;
 
 	count = 0;
-	ch = 1;
-	d = n ^ m;
-	for (i = 0; i < 31; i++)
+	check = 1;
+	diff = n ^ m;
+	for (i = 0; i < (sizeof(unsigned long int) * 8); i++)
 	{
-		if (check == (d & ch))
+		if (check == (diff & check))
 			count++;
-		ch <<= 1;
+		check <<= 1;
 	}
 	return (count);
 }
