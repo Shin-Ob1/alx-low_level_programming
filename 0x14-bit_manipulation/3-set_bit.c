@@ -9,9 +9,7 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int p;
-
-	p = 1UL << index;
+	unsigned long int p = 1UL << index;
 
 	if (index >= sizeof(unsigned long int) * 64)
 	{
