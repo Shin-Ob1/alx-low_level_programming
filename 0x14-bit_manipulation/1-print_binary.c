@@ -21,12 +21,12 @@ void print_binary(unsigned long int n)
 	shifts = n;
 	while (shifts != 0)
 	{
-		shifts = shifts>>1;
+		shifts = shifts >> 1;
 		bits++;
 	}
 	for (i = (bits - 1); i >= 0; i--)
 	{
-		if ((n>>i) & 1)
+		if ((n >> i) & 1)
 		{
 			_putchar('1');
 		}
@@ -35,5 +35,4 @@ void print_binary(unsigned long int n)
 			_putchar('0');
 		}
 	}
-	return;
 }
