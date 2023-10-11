@@ -9,7 +9,6 @@
  *
  * Return: index where value is located or (-1) if fail
  */
-
 int binary_search(int *array, size_t size, int value)
 {
 	size_t first, last, mid, i;
